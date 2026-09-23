@@ -1230,6 +1230,16 @@ img, svg { display: block; max-width: 100%; }
   visibility: visible;
   transform: translateY(0);
 }
+.site-footer {
+  display: flex;
+  align-items: center;      /* Vertically aligns logo and text */
+  justify-content: center;  /* Centers everything horizontally */
+  gap: 0.75rem;             /* Space between logo and text */
+}
+
+.site-footer p {
+  margin: 0;                /* Prevents extra paragraph spacing */
+}
 </style>
 </head>
 <body>
@@ -1338,6 +1348,10 @@ img, svg { display: block; max-width: 100%; }
     <div class="hero-inner">
       <p class="hero-context">A Ministry-recognized pathway at A.Y. Jackson Secondary School</p>
       <h1 class="hero-title">Turn your curiosity about tech into a diploma seal, a portfolio, and a plan for what's next.</h1>
+      <div style="display: flex; align-items: center; justify-content: left; gap: 1rem; margin: 1.5rem 0;">
+  <img src="https://u.cubeupload.com/219847/shsmlogo.png" alt="Ontario SHSM Red Seal" style="height: 64px; width: auto;" />
+  <span style="font-weight: 600; font-size: 0.95rem; max-width: 280px; text-align: left;">Earn the official Red Seal embossed on your High School Diploma</span>
+</div>
       <p class="hero-sub">ICT SHSM takes the tech you're already curious about — coding, game design, media, networking, hardware — and builds it into your high school years. Real projects. Real mentors. A real head start.</p>
       <div class="hero-actions">
         <a href="#what-is" class="btn btn-primary">See how it works</a>
@@ -1448,6 +1462,7 @@ img, svg { display: block; max-width: 100%; }
       <div class="showcase-copy">
         <p class="showcase-context">A.Y. Jackson Secondary School</p>
         <h2 class="showcase-heading">Launch Your Tech Career. <br><span class="highlight-red">Graduate With Advantage.</span></h2>
+        
         <p class="showcase-text">
           The Information & Communications Technology SHSM equips students with practical projects, real-world certifications, and specialized training to stand out in post-secondary applications and industry pathways.
         </p>
@@ -1585,6 +1600,11 @@ img, svg { display: block; max-width: 100%; }
         </div>
       </div>
     </div>
+    <div>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 1.5rem 0;">
+  <img src="https://u.cubeupload.com/219847/shsmlogo.png" alt="Ontario SHSM Red Seal" style="height: 96px; width: auto;" />
+  <span style="font-weight: 600; font-size: 0.95rem; max-width: 280px; text-align: left;">Earn the official Red Seal embossed on your High School Diploma</span>
+</div>
   </section>
 
   <!-- ===================== CAPSTONE CHOOSER ===================== -->
@@ -1898,6 +1918,7 @@ img, svg { display: block; max-width: 100%; }
 </main>
 
 <footer class="site-footer">
+  <img src="https://u.cubeupload.com/219847/ictshsm.jpg" alt="ICT SHSM Logo" class="brand-logo" width="42" height="42" />
   <p>ICT Specialist High Skills Major — A.Y. Jackson Secondary School, TDSB.</p>
 </footer>
 
